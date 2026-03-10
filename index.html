@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi-Tech Auto Parts</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hi-Tech Auto Parts</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Hi-Tech Auto Parts</h2>
+        <p>We offer a wide range of auto parts for your needs.</p>
+        <div class="search-container">
+            <input type="text" placeholder="Search products..." />
+            <button>Search</button>
+        </div>
+        <div class="product-grid">
+            <!-- Product items will be dynamically inserted here -->
+        </div>
+        <div class="quote-form">
+            <h3>Request a Quote</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Hi-Tech Auto Parts. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
